@@ -1,5 +1,12 @@
 title: Raghav Awasty
 description: My personal site for projects, interesting stuff, and experiments
 remote_theme: pages-themes/minimal@v0.2.0
+
+author: Raghav Awasty
+email: raghav.awasty@gmail.com
+
 plugins:
 - jekyll-remote-theme
+
+markdown: kramdown
+highlighter: rouge
