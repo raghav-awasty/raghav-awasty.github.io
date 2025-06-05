@@ -1,5 +1,188 @@
 ---
 layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Hey, I'm Raghav
+subtitle: I teach, tinker around and strive to keep learning.
 ---
+
+<style>
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #888;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  font-size: 16px;
+}
+
+.timeline-entry {
+  display: grid;
+  grid-template-columns: 120px auto;
+  gap: 1em;
+  align-items: start;
+}
+
+.timeline-entry time {
+  font-weight: bold;
+  color: #666;
+}
+
+.timeline-entry .title-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+}
+
+.timeline-entry .title-link::after {
+  /* content: ' ↗'; */
+  font-size: 0.9em;
+}
+
+.timeline-entry a {
+  border-bottom: 1px dotted;
+}
+
+.timeline-entry a:hover {
+  border-bottom-style: solid;
+}
+
+.timeline-entry div {
+  line-height: 1.4;
+}
+
+@media(max-width:480px){
+  .timeline-entry{grid-template-columns:1fr}
+  .timeline-entry time{margin-bottom:.25em}
+}
+</style>
+
+<!-- <em>Welcome to my personal site! 🚧 Still under construction!</em><br> -->
+<div style="
+  display: flex;
+  justify-content: center;
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 16px;
+">
+  Welcome to my personal site! 🚧 Still under construction!
+</div>
+
+<!-- <h3><strong>I teach, tinker around and strive to keep learning.</strong></h3>
+ -->
+I like to take a look at the bigger picture and try to approach things from a rounded perspective. I throw ideas out and if something sticks, I try to build it. Continously learning about new ideas and technologies is what keeps me interested and I believe in passing on knowledge as much as acquiring it.
+<br>
+<!-- <a href="https://github.com/raghav-awasty" target="_blank">Github</a> &nbsp; &nbsp; <a href="https://www.linkedin.com/in/raghav-awasty/" target="_blank">LinkedIn</a> &nbsp; &nbsp; <a href="mailto:raghav.awasty@gmail.com">raghav.awasty@gmail.com</a>
+ -->
+<div style="display: flex; justify-content: center; margin: 2em 0;">
+  <table style="border-collapse: collapse; border: none;">
+    <tr>
+      <td style="border: none; padding: 0 1.5em; border-bottom: 1px solid #ccc;">
+        <a href="https://github.com/raghav-awasty" target="_blank">GitHub</a>
+      </td>
+      <td style="border: none; padding: 0 1.5em; border-bottom: 1px solid #ccc;">
+        <a href="https://www.linkedin.com/in/raghav-awasty/" target="_blank">LinkedIn</a>
+      </td>
+      <td style="border: none; padding: 0 1.5em; border-bottom: 1px solid #ccc;">
+        <a href="mailto:raghav.awasty@gmail.com">raghav.awasty@gmail.com</a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<div class="timeline">
+
+  <div class="timeline-entry">
+    <time>2021 - Present</time>
+    <div>
+      <strong>Teaching</strong><br>
+      I teach courses on computational thinking, C programming, and mentor student projects in the AI-driven innovation space at <a href="https://plaksha.edu.in" target="_blank"> Plaksha University</a>.
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <time></time>
+    <div>
+      <strong><a href="https://github.com/Plaksha-University/knowledge_map" class="title-link" target="_blank"> Knowledge Map (WIP) <svg width="16" height="16" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 3C3.22386 3 3 3.22386 3 3.5C3 3.77614 3.22386 4 3.5 4V3ZM8.5 3.5H9C9 3.22386 8.77614 3 8.5 3V3.5ZM8 8.5C8 8.77614 8.22386 9 8.5 9C8.77614 9 9 8.77614 9 8.5H8ZM2.64645 8.64645C2.45118 8.84171 2.45118 9.15829 2.64645 9.35355C2.84171 9.54882 3.15829 9.54882 3.35355 9.35355L2.64645 8.64645ZM3.5 4H8.5V3H3.5V4ZM8 3.5V8.5H9V3.5H8ZM8.14645 3.14645L2.64645 8.64645L3.35355 9.35355L8.85355 3.85355L8.14645 3.14645Z" fill="currentColor" data-darkreader-inline-fill="" style="--darkreader-inline-fill: currentColor;"></path></svg></a></strong><br>
+      Designed a system to visualize curriculum, learning outcomes, and prerequisites for an AI-driven course mapping/planning tool.
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <time></time>
+    <div>
+      <strong>Capstone Project (Mentorship)</strong><br>
+      Mentored two student groups working on identifying crop disease and modelling crop yeild using satellite image data.
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <time></time>
+    <div>
+      <strong>AI Bootcamp</strong><br>
+      Designed modules for executive courses on generative AI and traditional ML.
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <time>2024</time>
+    <div>
+      <strong>Stanford Code in Place Section Leader</strong><br>
+      Taught in the voluntary <a href="https://codeinplace.stanford.edu/" target="_blank">Code in Place</a> program by Stanford.
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <time></time>
+    <div>
+      <strong>River Cleanup Robot (Mentorship)</strong><br>
+      Coached high school student on designing a sustainable robot for cleaning polluted rivers in Nepal.
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <time>Pre 2021: Education, Roles</time>
+    <div>
+      <strong>SciComm</strong><br>
+      Created educational content in Physics and Math as a subject matter expert at an early stage startup called <a href="https://scicomm.in/" target="_blank">SciComm</a>.
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <time></time>
+    <div>
+      <strong>Masters at Aix-Marseille Université</strong><br>
+      Completed a Masters program in Astrophysics at Université Paris-Saclay (M1 General Physics) and Aix-Marseille Université (M2 Astrophysics).
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <time></time>
+    <div>
+      <strong>Bachelors at Amity University</strong><br>
+      Completed a Bachelors program in Physics at Amity University.
+    </div>
+  </div>
+
+</div>
+<br>
+
+<h2>Open projects / ideas</h2>
+
+<strong>Knowledge Map</strong> - Mapping out the courses in a curriculum to assess cohesivenss between courses, identify gaps, enable collaboration, gauge course effectiveness and visualise learning pathways for students.<br><br>
+<strong>Road Sense</strong> - An app to use the inbuilt sensors in mobile phones to measure road smoothness and create a 3D map.<br><br>
+<strong>Bluetooth Attendance</strong> - A method to take attendance by capturing the bluetooth signals from mobile phones and reduce reliance on manual methods.<br><br>
+<strong>Sign Language for AR Glasses</strong> - Inspired by the Marvel show <a href="https://www.reddit.com/r/marvelstudios/comments/1awxmlr/while_stark_and_the_other_geniuses_were_making/" target="_blank">Echo</a>.<br>
